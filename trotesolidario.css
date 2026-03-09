@@ -1,0 +1,87 @@
+body {
+    margin: 0; /* remove a margem padrão do navegador */
+    min-height: 100vh; /* garante pelo menos 100% da tela */
+    display: flex; /* ativa o flexbox */
+    justify-content: center; /* centraliza na horizontal */
+    align-items: flex-start; /* começa do topo, para não cortar conteúdo */
+    background:#1e3c72; /* azul profundo moderno */
+    padding: 20px 0; /* dá espaço superior e inferior */
+}
+.container {
+    display: flex; /* ativa flexbox */
+    flex-direction: column; /* empilha os elementos verticalmente */
+    align-items: center; /* centraliza os elementos */
+    background-color: rgba(255, 255, 255, 0.95); /* branco levemente transparente */
+    width: 90%; /* largura da caixa */
+    max-width: 600px; /* não ultrapassa 600px mesmo em telas grandes */
+    padding: 30px; /* espaço interno */
+    border-radius: 20px; /* cantos arredondados */
+    text-align: center; /* centraliza o texto */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* sombra moderna suave */
+}
+
+ul {
+    list-style: none; /* remove bolinhas */
+    padding: 0; /* remove o espaço interno da lista */
+    margin: 0 auto; /* centraliza a lista na caixa */
+    max-width: 100%; /* nunca ultrapassa a largura da tela */
+    text-align: left; /* texto alinhado à esquerda */
+}
+
+ul li {
+    padding: 6px 0; /* espaçamento entre os itens */
+    font-size: 17px; /* tamanho da fonte da lista */
+    font-family: 'Montserrat', sans-serif; /* fonte moderna da lista */
+    color: #3a393a; /* cor do texto da lista */
+}
+
+h1 {
+    color: #1e3c72; /* azul elegante */
+    margin-bottom: 10px; /* espaço abaixo do título */
+    font-size: 32px; /* aumenta o tamanho */
+    letter-spacing: 1px; /* pequeno espaçamento entre letras */
+}
+
+h2 {
+    font-size: 22px; /* tamanho do subtítulo */
+    color: #353942; /* cor do subtítulo */
+    margin-top: 25px; /* espaço acima do subtítulo */
+    margin-bottom: 15px; /* espaço abaixo do subtítulo */
+    text-align: center; /* centraliza o subtítulo na caixa */
+}
+
+p {
+    color: #424650; /* cinza moderno */
+    font-size: 19px; /* tamanho equilibrado */
+    margin-bottom: 10px; /* espaço abaixo do texto */
+}
+
+button {
+    margin-top: 2.5em; /* espaço acima do botão */
+    padding: 17px 30px; /* espaço interno do botão */
+    background-color: #1e3c72; /* cor azul do botão */
+    color: white; /* cor do texto */
+    border: none; /* remove borda padrão */
+    border-radius: 25px; /* deixa arredondado */
+    cursor: pointer; /* muda o cursor para mãozinha */
+    font-size: 19px; /* tamanho do texto */
+    transition: 0.3s; /* animação suave */
+}
+
+button:hover {
+    background-color: #005fcc; /* muda a cor ao passar o mouse */
+    transform: scale(1.05); /* aumenta levemente o botão */
+}
+
+.imagem-trote {
+    width: 250px;   /* tamanho ideal na maioria das telas */
+    max-width: 90%; /* se a tela for menor que 250px, encolhe proporcionalmente */
+    height: auto;   /* mantém proporção */
+}
+
+.realizacao {
+    margin-top: 20px; /* espaço acima do texto */
+    font-size: 14px; /* menor que o restante do conteúdo */
+    color: #666670; /* mesma cor do título */
+    font-family: 'Montserrat', sans-serif;  /* mantém a mesma fonte usada no resto da página */
+}
